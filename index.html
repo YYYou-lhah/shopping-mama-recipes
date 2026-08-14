@@ -29,7 +29,7 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            padding-bottom: 120px; /* 留位給底部欄 */
+            padding-bottom: 60px;
         }
 
         header {
@@ -250,7 +250,7 @@
             margin: 2px 0;
         }
 
-        /* 底部設計 (依照圖片樣式) */
+        /* 底部設計 (深色引流橫幅) */
         .footer-banner {
             background-color: var(--footer-bg);
             color: var(--footer-text);
@@ -286,48 +286,6 @@
         .btn-facebook:hover {
             transform: scale(1.05);
             box-shadow: 0 5px 15px rgba(255,255,255,0.2);
-        }
-        
-        .footer-bottom {
-            background-color: #fdf6f0; /* 淺米黃色背景 */
-            padding: 40px 20px;
-            text-align: center;
-            color: #555;
-        }
-
-        .author-info {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-
-        .author-info img {
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 2px solid #fff;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        .author-text {
-            text-align: left;
-        }
-
-        .bottom-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #fff;
-            padding: 12px 20px;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            z-index: 100;
-            font-size: 0.9em;
-            color: #666;
         }
     </style>
 </head>
@@ -366,27 +324,13 @@
         </div>
     </div>
 
-    <!-- 底部深色橫幅區域 -->
+    <!-- 底部深色橫幅區域 (引流至 Facebook) -->
     <div class="footer-banner">
         <h2>想睇多啲免費家庭資源？</h2>
         <p>呢度仲有更多免費資源同小工具，歡迎慢慢逛吓</p>
         <a href="https://www.facebook.com/profile.php?id=61558505249252#" target="_blank" rel="noopener noreferrer" class="btn-facebook">
             追蹤 @Shopping mama
         </a>
-    </div>
-
-    <!-- 底部作者與版權區域 -->
-    <div class="footer-bottom">
-        <div class="author-info">
-            <!-- 替換為實際頭像 -->
-            <img src="https://ui-avatars.com/api/?name=Lily&background=e0e0e0&color=333&rounded=true" alt="Lily Lau">
-            <div class="author-text">
-                <div style="font-weight:bold; font-size:1.1em; color:#333;">Hi，我係 Lily</div>
-                <div>香港持牌會計師 × 保誠保險顧問</div>
-                <div>呢個食譜由我整理俾大家免費使用。</div>
-            </div>
-        </div>
-        <p style="font-size:0.9em;">呢個食譜網頁純屬免費家庭資源，歡迎分享俾有需要嘅家庭。</p>
     </div>
 
     <!-- Modal for Recipe Details -->
