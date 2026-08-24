@@ -8,11 +8,11 @@
     <script src="recipes_data.js"></script>
     <style>
         :root {
-            --primary-color: #fce4ec; /* 淺粉色背景 */
+            --primary-color: #fce4ec;
             --text-color: #333;
             --card-bg: #fff;
             --accent-color: #f06292;
-            --footer-bg: #3e2723; /* 深啡色底部 */
+            --footer-bg: #3e2723;
             --footer-text: #fff;
         }
 
@@ -163,7 +163,6 @@
             background: #f8bbd0;
         }
 
-        /* Modal Styles (Popup for Recipe Details) */
         .modal-overlay {
             display: none;
             position: fixed;
@@ -250,7 +249,6 @@
             margin: 2px 0;
         }
 
-        /* 底部設計 (深色引流橫幅) */
         .footer-banner {
             background-color: var(--footer-bg);
             color: var(--footer-text);
@@ -312,6 +310,7 @@
                     <option value="all">全部 (Semua / Lahat)</option>
                     <option value="pork">豬肉類 (Babi / Baboy)</option>
                     <option value="poultry">家禽類 (Ayam / Manok)</option>
+                    <option value="beef">牛肉類 (Sapi / Baka)</option>
                     <option value="seafood">海鮮類 (Seafood)</option>
                     <option value="veg">蔬菜類 (Sayuran / Gulay)</option>
                     <option value="egg">蛋類 (Telur / Itlog)</option>
@@ -319,12 +318,9 @@
             </div>
         </div>
 
-        <div class="recipe-grid" id="recipe-container">
-            <!-- Recipes will be injected here via JS -->
-        </div>
+        <div class="recipe-grid" id="recipe-container"></div>
     </div>
 
-    <!-- 底部深色橫幅區域 (引流至 Facebook) -->
     <div class="footer-banner">
         <h2>想睇多啲免費家庭資源？</h2>
         <p>呢度仲有更多免費資源同小工具，歡迎慢慢逛吓</p>
@@ -333,7 +329,6 @@
         </a>
     </div>
 
-    <!-- Modal for Recipe Details -->
     <div class="modal-overlay" id="recipe-modal" onclick="closeModal(event)">
         <div class="modal-content" onclick="event.stopPropagation()">
             <button class="close-btn" onclick="document.getElementById('recipe-modal').style.display='none'">&times;</button>
@@ -347,14 +342,10 @@
             </div>
 
             <div class="section-title">🛒 材料 / Bahan / Mga Sangkap</div>
-            <ul class="ingredients-list" id="modal-ingredients">
-                <!-- Ingredients will be populated here -->
-            </ul>
+            <ul class="ingredients-list" id="modal-ingredients"></ul>
 
             <div class="section-title">🍳 做法 / Cara Membuat / Paraan ng Pagluluto</div>
-            <ol class="steps-list" id="modal-steps">
-                <!-- Steps will be populated here -->
-            </ol>
+            <ol class="steps-list" id="modal-steps"></ol>
         </div>
     </div>
 
@@ -401,7 +392,6 @@
             document.getElementById('modal-time').innerText = recipe.time;
             document.getElementById('modal-portion').innerText = recipe.portion;
 
-            // Render Ingredients
             const ingList = document.getElementById('modal-ingredients');
             ingList.innerHTML = '';
             recipe.ingredients.forEach(ing => {
@@ -414,7 +404,6 @@
                 ingList.appendChild(li);
             });
 
-            // Render Steps
             const stepsList = document.getElementById('modal-steps');
             stepsList.innerHTML = '';
             recipe.steps.forEach(step => {
@@ -436,7 +425,6 @@
             }
         }
 
-        // Initialize
         renderRecipes();
     </script>
 </body>

@@ -1,1 +1,813 @@
-const recipesData = [{"id": 1, "hk": "番茄炒蛋", "id_name": "Tumis Tomat dan Telur", "ph": "Ginisang Kamatis at Itlog", "portion": "2-3人", "time": "15 mins", "category": "egg", "ingredients": [{"zh": "番茄 3個", "id": "Tomat 3 buah", "ph": "Kamatis 3 piraso"}, {"zh": "雞蛋 3隻", "id": "Telur 3 butir", "ph": "Itlog 3 piraso"}, {"zh": "鹽 1茶匙", "id": "Garam 1 sdt", "ph": "Asin 1 kutsarita"}, {"zh": "糖 2茶匙", "id": "Gula 2 sdt", "ph": "Asukal 2 kutsarita"}, {"zh": "蔥花 適量", "id": "Daun bawang secukupnya", "ph": "Sibuyas na mura, katamtaman"}], "steps": [{"zh": "番茄切塊，雞蛋打勻備用。", "id": "Potong tomat, kocok telur.", "ph": "Hiwain ang kamatis, batihin ang itlog."}, {"zh": "燒熱鑊落油，先炒熟雞蛋盛起。", "id": "Panaskan wajan dengan minyak, goreng telur lalu angkat.", "ph": "Initin ang kawali na may mantika, lutuin ang itlog at itabi."}, {"zh": "原鑊加少許油，炒軟番茄，加入鹽和糖調味。", "id": "Tambahkan sedikit minyak, tumis tomat hingga layu, bumbui dengan garam dan gula.", "ph": "Magdagdag ng mantika, igisa ang kamatis hanggang lumambot, timplahan ng asin at asukal."}, {"zh": "將雞蛋回鑊炒勻，撒上蔥花即成。", "id": "Masukkan kembali telur, aduk rata, taburi daun bawang.", "ph": "Ibalik ang itlog sa kawali, haluin, at budburan ng sibuyas na mura."}]}, {"id": 2, "hk": "梅菜蒸肉餅", "id_name": "Daging Babi Cincang Kukus dengan Sayur Asin", "ph": "Pinasingaw na Baboy na may Preserved Cabbage", "portion": "4-5人", "time": "30 mins", "category": "pork", "ingredients": [{"zh": "半肥瘦豬肉碎 300克", "id": "Daging babi giling 300g", "ph": "Giniling na baboy 300g"}, {"zh": "甜梅菜 1棵", "id": "Sayur asin manis 1 ikat", "ph": "Sweet preserved cabbage 1 piraso"}, {"zh": "生抽 1湯匙", "id": "Kecap asin 1 sdm", "ph": "Toyo 1 kutsara"}, {"zh": "糖 半茶匙", "id": "Gula 1/2 sdt", "ph": "Asukal 1/2 kutsarita"}, {"zh": "生粉 1茶匙", "id": "Tepung maizena 1 sdt", "ph": "Cornstarch 1 kutsarita"}], "steps": [{"zh": "梅菜浸洗乾淨，切碎備用。", "id": "Rendam dan cuci bersih sayur asin, cincang kasar.", "ph": "Ibabad at hugasan ang preserved cabbage, tadtarin."}, {"zh": "將豬肉碎與梅菜拌勻。", "id": "Campur daging babi giling dengan sayur asin.", "ph": "Haluin ang giniling na baboy at preserved cabbage."}, {"zh": "加入生抽、糖、生粉順同一方向攪拌至起膠。", "id": "Tambahkan kecap asin, gula, maizena, aduk searah hingga lengket.", "ph": "Idagdag ang toyo, asukal, cornstarch, haluin sa isang direksyon hanggang maging malagkit."}, {"zh": "將肉餅鋪平在碟上，大火蒸約 15 分鐘至熟透。", "id": "Ratakan daging di atas piring, kukus api besar selama 15 menit hingga matang.", "ph": "Ilatag ang karne sa plato, pasingawan sa malakas na apoy ng 15 minuto hanggang maluto."}]}, {"id": 3, "hk": "蒜蓉炒菜心", "id_name": "Tumis Sawi Hijau dengan Bawang Putih", "ph": "Ginisang Choy Sum na may Bawang", "portion": "2-3人", "time": "10 mins", "category": "veg", "ingredients": [{"zh": "菜心 1斤", "id": "Sawi hijau 600g", "ph": "Choy sum 600g"}, {"zh": "蒜蓉 2湯匙", "id": "Bawang putih cincang 2 sdm", "ph": "Tinadtad na bawang 2 kutsara"}, {"zh": "鹽 1茶匙", "id": "Garam 1 sdt", "ph": "Asin 1 kutsarita"}, {"zh": "糖 半茶匙", "id": "Gula 1/2 sdt", "ph": "Asukal 1/2 kutsarita"}], "steps": [{"zh": "菜心洗淨，摘去老葉，切段備用。", "id": "Cuci bersih sawi hijau, buang daun tua, potong-potong.", "ph": "Hugasan ang choy sum, alisin ang matigas na dahon, hiwain."}, {"zh": "燒熱鑊落油，爆香蒜蓉。", "id": "Panaskan wajan dengan minyak, tumis bawang putih hingga harum.", "ph": "Initin ang kawali na may mantika, igisa ang bawang hanggang bumango."}, {"zh": "加入菜心大火快炒。", "id": "Masukkan sawi hijau, tumis cepat dengan api besar.", "ph": "Ilagay ang choy sum, igisa ng mabilis sa malakas na apoy."}, {"zh": "加入鹽、糖調味，炒熟即可上碟。", "id": "Bumbui dengan garam dan gula, tumis hingga matang lalu angkat.", "ph": "Timplahan ng asin at asukal, lutuin hanggang maluto at hanguin."}]}, {"id": 4, "hk": "清蒸海上鮮", "id_name": "Ikan Kukus", "ph": "Steamed Fish", "portion": "4-5人", "time": "20 mins", "category": "seafood", "ingredients": [{"zh": "新鮮魚 1條", "id": "Ikan segar 1 ekor", "ph": "Fresh fish 1 piraso"}, {"zh": "蔥 2棵", "id": "Daun bawang 2 batang", "ph": "Sibuyas na mura 2 piraso"}, {"zh": "薑 3片", "id": "Jahe 3 iris", "ph": "Luya 3 hiwa"}, {"zh": "蒸魚豉油 3湯匙", "id": "Kecap asin untuk ikan kukus 3 sdm", "ph": "Seasoned soy sauce for seafood 3 kutsara"}, {"zh": "熟油 2湯匙", "id": "Minyak panas 2 sdm", "ph": "Mainit na mantika 2 kutsara"}], "steps": [{"zh": "魚洗淨抹乾，在魚身𠝹兩刀，鋪上薑片。", "id": "Cuci bersih ikan, lap kering, kerat badannya, taruh jahe di atasnya.", "ph": "Hugasan at patuyuin ang isda, hiwain ng bahagya ang gilid, ilagay ang luya sa ibabaw."}, {"zh": "水滾後，將魚放入大火蒸 8-10 分鐘。", "id": "Setelah air mendidih, kukus ikan dengan api besar 8-10 menit.", "ph": "Pagkulo ng tubig, pasingawan ang isda sa malakas na apoy ng 8-10 minuto."}, {"zh": "取出魚，倒去碟中多餘的水分，棄掉薑片。", "id": "Angkat ikan, buang air di piring, buang jahe.", "ph": "Hanguin ang isda, itapon ang sabaw sa plato at ang luya."}, {"zh": "鋪上蔥絲，淋上蒸魚豉油和滾油即成。", "id": "Taburi irisan daun bawang, siram kecap ikan kukus dan minyak panas.", "ph": "Ilagay ang hiniwang sibuyas na mura, ibuhos ang toyo at mainit na mantika."}]}, {"id": 5, "hk": "粟米肉粒", "id_name": "Daging Babi Cincang Jagung", "ph": "Minced Pork with Corn", "portion": "2-3人", "time": "15 mins", "category": "pork", "ingredients": [{"zh": "豬肉粒 200克", "id": "Daging babi potong dadu 200g", "ph": "Diced pork 200g"}, {"zh": "粟米蓉 1罐", "id": "Krim jagung 1 kaleng", "ph": "Cream style corn 1 can"}, {"zh": "雞蛋 1隻", "id": "Telur 1 butir", "ph": "Itlog 1 piraso"}, {"zh": "鹽 適量", "id": "Garam secukupnya", "ph": "Asin katamtaman"}, {"zh": "生粉水 少許", "id": "Larutan maizena sedikit", "ph": "Cornstarch mixture konti"}], "steps": [{"zh": "豬肉粒用少許鹽、糖、生粉醃 15 分鐘。", "id": "Marinasi daging babi dengan garam, gula, maizena selama 15 menit.", "ph": "I-marinate ang baboy sa asin, asukal, cornstarch ng 15 minuto."}, {"zh": "熱鑊落油，炒熟豬肉粒，盛起備用。", "id": "Panaskan wajan, tumis daging babi hingga matang, angkat.", "ph": "Initin ang kawali, lutuin ang baboy, itabi."}, {"zh": "將粟米蓉倒入鑊中，加半罐水煮滾。", "id": "Masukkan krim jagung, tambahkan setengah kaleng air, didihkan.", "ph": "Ilagay ang cream corn, magdagdag ng kalahating lata ng tubig, pakuluin."}, {"zh": "加入豬肉粒拌勻，埋芡，熄火後拌入蛋花即成。", "id": "Masukkan daging babi, kentalkan dengan maizena, matikan api, aduk telur.", "ph": "Ilagay ang baboy, palaputin ng cornstarch, patayin ang apoy, ihalo ang itlog."}]}, {"id": 6, "hk": "洋蔥豬扒", "id_name": "Babi Panggang Bawang Bombay", "ph": "Pork Chops with Onion", "portion": "2-3人", "time": "25 mins", "category": "pork", "ingredients": [{"zh": "豬扒 3塊", "id": "Daging babi (pork chop) 3 potong", "ph": "Pork chops 3 piraso"}, {"zh": "洋蔥 1個", "id": "Bawang bombay 1 buah", "ph": "Sibuyas 1 piraso"}, {"zh": "生抽 1湯匙", "id": "Kecap asin 1 sdm", "ph": "Toyo 1 kutsara"}, {"zh": "糖 1茶匙", "id": "Gula 1 sdt", "ph": "Asukal 1 kutsarita"}, {"zh": "水 半碗", "id": "Air 1/2 mangkuk", "ph": "Tubig 1/2 mangkok"}], "steps": [{"zh": "豬扒用刀背拍鬆，用生抽、糖醃 20 分鐘。", "id": "Pukul-pukul babi agar empuk, marinasi dengan kecap asin dan gula 20 menit.", "ph": "Pitpitin ang pork chops, i-marinate sa toyo at asukal ng 20 minuto."}, {"zh": "洋蔥切絲備用。", "id": "Iris bawang bombay.", "ph": "Hiwain ang sibuyas."}, {"zh": "煎香豬扒兩面至熟透，盛起。", "id": "Goreng babi hingga matang di kedua sisi, angkat.", "ph": "I-prito ang pork chops hanggang maluto, itabi."}, {"zh": "原鑊炒香洋蔥絲，加入水、生抽、糖煮成醬汁。", "id": "Tumis bawang bombay, tambahkan air, kecap asin, gula untuk saus.", "ph": "Igisa ang sibuyas, magdagdag ng tubig, toyo, asukal para sa sarsa."}, {"zh": "將豬扒回鑊拌勻醬汁即成。", "id": "Masukkan babi, aduk rata dengan saus.", "ph": "Ibalik ang pork chops at ihalo sa sarsa."}]}, {"id": 7, "hk": "節瓜粉絲蝦米", "id_name": "Labu Air Soun Ebi", "ph": "Hairy Gourd with Vermicelli and Dried Shrimp", "portion": "4-5人", "time": "20 mins", "category": "veg", "ingredients": [{"zh": "節瓜 2個", "id": "Labu air 2 buah", "ph": "Hairy gourd 2 piraso"}, {"zh": "粉絲 1札", "id": "Soun 1 ikat", "ph": "Vermicelli 1 bundle"}, {"zh": "蝦米 1湯匙", "id": "Ebi (udang kering) 1 sdm", "ph": "Dried shrimp 1 kutsara"}, {"zh": "清湯 半碗", "id": "Kaldu ayam 1/2 mangkuk", "ph": "Chicken broth 1/2 mangkok"}], "steps": [{"zh": "節瓜去皮切條。粉絲浸軟剪段。蝦米浸軟。", "id": "Kupas dan potong labu. Rendam soun, gunting. Rendam ebi.", "ph": "Balatan at hiwain ang hairy gourd. Ibabad ang vermicelli. Ibabad ang dried shrimp."}, {"zh": "爆香蝦米，加入節瓜略炒。", "id": "Tumis ebi, masukkan labu air, tumis sebentar.", "ph": "Igisa ang dried shrimp, ilagay ang hairy gourd."}, {"zh": "倒入清湯煮滾，加蓋炆煮 5 分鐘至節瓜變軟。", "id": "Masukkan kaldu, didihkan, tutup dan masak 5 menit hingga labu empuk.", "ph": "Ilagay ang kaldu, pakuluin, takpan at lutuin ng 5 minuto."}, {"zh": "加入粉絲煮至吸收湯汁，加少許鹽調味即成。", "id": "Masukkan soun masak hingga meresap, bumbui garam.", "ph": "Ilagay ang vermicelli, lutuin hanggang masipsip ang sabaw, timplahan ng asin."}]}, {"id": 8, "hk": "蝦仁炒蛋", "id_name": "Telur Orak-arik Udang", "ph": "Scrambled Eggs with Shrimp", "portion": "2-3人", "time": "15 mins", "category": "egg", "ingredients": [{"zh": "急凍蝦仁 150克", "id": "Udang beku 150g", "ph": "Frozen shrimp 150g"}, {"zh": "雞蛋 4隻", "id": "Telur 4 butir", "ph": "Itlog 4 piraso"}, {"zh": "蔥粒 2湯匙", "id": "Daun bawang iris 2 sdm", "ph": "Chopped spring onion 2 kutsara"}, {"zh": "鹽 少許", "id": "Garam sedikit", "ph": "Asin konti"}], "steps": [{"zh": "蝦仁解凍洗淨，用廚房紙吸乾水分，用少許鹽和胡椒粉醃 10 分鐘。", "id": "Cairkan udang, keringkan, marinasi dengan garam & merica 10 menit.", "ph": "I-thaw ang hipon, patuyuin, i-marinate sa asin at paminta ng 10 minuto."}, {"zh": "雞蛋打勻，加入少許鹽調味。", "id": "Kocok telur, beri sedikit garam.", "ph": "Batihin ang itlog, timplahan ng konting asin."}, {"zh": "熱鑊落油，炒熟蝦仁，盛起。", "id": "Panaskan minyak, tumis udang hingga matang, angkat.", "ph": "Initin ang mantika, lutuin ang hipon, itabi."}, {"zh": "將蝦仁和蔥粒加入蛋液中。", "id": "Masukkan udang dan daun bawang ke telur.", "ph": "Ihalo ang hipon at sibuyas na mura sa itlog."}, {"zh": "鑊中加油，倒入蝦仁蛋液，中火炒至半凝固即成。", "id": "Panaskan minyak, masukkan telur, orak-arik hingga setengah matang.", "ph": "Initin ang mantika, ilagay ang itlog, lutuin hanggang maluto nang bahagya."}]}, {"id": 9, "hk": "豉汁排骨", "id_name": "Iga Babi Saus Kedelai Hitam", "ph": "Pork Ribs in Black Bean Sauce", "portion": "4-5人", "time": "25 mins", "category": "pork", "ingredients": [{"zh": "排骨 300克", "id": "Iga babi 300g", "ph": "Pork ribs 300g"}, {"zh": "豆豉 1湯匙", "id": "Kacang kedelai hitam (douchi) 1 sdm", "ph": "Black beans 1 kutsara"}, {"zh": "蒜蓉 1湯匙", "id": "Bawang putih cincang 1 sdm", "ph": "Tinadtad na bawang 1 kutsara"}, {"zh": "紅椒絲 少許", "id": "Cabai merah iris sedikit", "ph": "Hiniwang sili konti"}, {"zh": "生粉 1茶匙", "id": "Tepung maizena 1 sdt", "ph": "Cornstarch 1 kutsarita"}], "steps": [{"zh": "排骨洗淨斬件，瀝乾水分。", "id": "Cuci bersih iga babi, tiriskan.", "ph": "Hugasan ang pork ribs, patuyuin."}, {"zh": "豆豉沖洗後略為壓碎，與蒜蓉拌勻。", "id": "Cuci douchi, hancurkan kasar, campur bawang putih.", "ph": "Hugasan ang black beans, durugin, ihalo ang bawang."}, {"zh": "排骨加入豆豉蒜蓉、生抽、糖、生粉醃 30 分鐘。", "id": "Marinasi iga dengan douchi, kecap asin, gula, maizena 30 menit.", "ph": "I-marinate ang ribs sa black beans, toyo, asukal, cornstarch ng 30 minuto."}, {"zh": "排骨平鋪碟上，撒上紅椒絲。", "id": "Taruh iga di piring, taburi cabai merah.", "ph": "Ilagay ang ribs sa plato, budburan ng sili."}, {"zh": "水滾後大火蒸 12-15 分鐘至熟透。", "id": "Kukus api besar 12-15 menit hingga matang.", "ph": "Pasingawan sa malakas na apoy ng 12-15 minuto."}]}, {"id": 10, "hk": "西蘭花炒帶子", "id_name": "Tumis Brokoli Kerang", "ph": "Broccoli with Scallops", "portion": "4-5人", "time": "15 mins", "category": "seafood", "ingredients": [{"zh": "西蘭花 1個", "id": "Brokoli 1 buah", "ph": "Broccoli 1 piraso"}, {"zh": "急凍帶子 200克", "id": "Kerang (Scallop) beku 200g", "ph": "Frozen scallops 200g"}, {"zh": "蒜蓉 1湯匙", "id": "Bawang putih cincang 1 sdm", "ph": "Tinadtad na bawang 1 kutsara"}, {"zh": "薑片 2片", "id": "Jahe 2 iris", "ph": "Luya 2 hiwa"}], "steps": [{"zh": "西蘭花切小朵，洗淨；帶子解凍，洗淨抹乾。", "id": "Potong brokoli; cairkan dan bersihkan kerang.", "ph": "Hiwain ang broccoli; i-thaw at hugasan ang scallops."}, {"zh": "水滾加少許鹽和油，放入西蘭花汆水 2 分鐘，盛起瀝乾。", "id": "Rebus brokoli 2 menit dengan sedikit garam & minyak, tiriskan.", "ph": "Pakuluan ang broccoli ng 2 minuto sa tubig na may asin at mantika, hanguin."}, {"zh": "熱鑊落油，爆香薑片，煎熟帶子兩面，盛起。", "id": "Tumis jahe, goreng kerang hingga matang, angkat.", "ph": "Igisa ang luya, lutuin ang scallops, itabi."}, {"zh": "原鑊加蒜蓉爆香，加入西蘭花炒勻。", "id": "Tumis bawang putih, masukkan brokoli, aduk.", "ph": "Igisa ang bawang, ilagay ang broccoli, haluin."}, {"zh": "帶子回鑊，加少許鹽、糖、蠔油炒勻即成。", "id": "Masukkan kerang, bumbui garam, gula, saus tiram, aduk rata.", "ph": "Ibalik ang scallops, timplahan ng asin, asukal, oyster sauce, haluin."}]}, {"id": 11, "hk": "魚香茄子", "id_name": "Terong Saus Ikan Asin", "ph": "Eggplant with Salted Fish", "portion": "2-3人", "time": "25 mins", "category": "veg", "ingredients": [{"zh": "茄子 2條", "id": "Terong 2 buah", "ph": "Eggplant 2 piraso"}, {"zh": "豬肉碎 100克", "id": "Daging babi giling 100g", "ph": "Minced pork 100g"}, {"zh": "梅香鹹魚粒 1湯匙", "id": "Ikan asin potong dadu 1 sdm", "ph": "Salted fish diced 1 kutsara"}, {"zh": "蒜蓉、薑茸 各1茶匙", "id": "Bawang putih, jahe cincang masing-masing 1 sdt", "ph": "Garlic, ginger minced 1 tsp each"}], "steps": [{"zh": "茄子切條，浸鹽水片刻，瀝乾水份。", "id": "Potong terong, rendam air garam sebentar, tiriskan.", "ph": "Hiwain ang eggplant, ibabad sa asin na tubig, patuyuin."}, {"zh": "熱鑊下較多油，半煎炸茄子至軟身，盛起隔油。", "id": "Goreng terong dengan banyak minyak hingga lembut, tiriskan minyak.", "ph": "I-prito ang eggplant sa maraming mantika hanggang lumambot, itabi."}, {"zh": "原鑊留少許油，爆香鹹魚粒、蒜蓉、薑茸。", "id": "Tumis ikan asin, bawang putih, jahe.", "ph": "Igisa ang salted fish, bawang, luya."}, {"zh": "加入豬肉碎炒熟，加入辣豆瓣醬略炒。", "id": "Masukkan daging babi giling, tumis hingga matang, tambah saus cabai bean.", "ph": "Ilagay ang giniling na baboy, lutuin, magdagdag ng chili bean sauce."}, {"zh": "茄子回鑊，加半碗水、生抽、糖炆 2 分鐘即成。", "id": "Masukkan terong, air, kecap asin, gula, masak 2 menit.", "ph": "Ibalik ang eggplant, tubig, toyo, asukal, lutuin ng 2 minuto."}]}, {"id": 12, "hk": "馬蹄土魷蒸肉餅", "id_name": "Daging Cincang Kukus dengan Bangkuang & Cumi", "ph": "Steamed Pork Patty with Water Chestnut & Squid", "portion": "4-5人", "time": "25 mins", "category": "pork", "ingredients": [{"zh": "豬肉碎 300克", "id": "Daging babi giling 300g", "ph": "Minced pork 300g"}, {"zh": "馬蹄 4粒", "id": "Bangkuang 4 buah", "ph": "Water chestnut 4 piraso"}, {"zh": "土魷 (乾魷魚) 半隻", "id": "Cumi kering 1/2 ekor", "ph": "Dried squid 1/2 piraso"}, {"zh": "生抽、糖、生粉 各適量", "id": "Kecap asin, gula, maizena secukupnya", "ph": "Soy sauce, sugar, cornstarch to taste"}], "steps": [{"zh": "土魷浸軟，切幼粒。馬蹄去皮，拍碎切粒。", "id": "Rendam cumi, potong kecil. Kupas bangkuang, cincang kasar.", "ph": "Ibabad ang squid, hiwain. Balatan ang water chestnut, tadtarin."}, {"zh": "豬肉碎加入生抽、糖、生粉攪拌至起膠。", "id": "Campur daging babi dengan kecap asin, gula, maizena hingga lengket.", "ph": "Haluin ang baboy, toyo, asukal, cornstarch hanggang malagkit."}, {"zh": "加入土魷粒及馬蹄粒拌勻。", "id": "Masukkan cumi dan bangkuang, aduk rata.", "ph": "Ihalo ang squid at water chestnut."}, {"zh": "平鋪在碟上，大火蒸 12-15 分鐘至熟透。", "id": "Ratakan di piring, kukus api besar 12-15 menit hingga matang.", "ph": "Ilatag sa plato, pasingawan sa malakas na apoy ng 12-15 minuto."}]}, {"id": 13, "hk": "蠔油生菜", "id_name": "Selada Saus Tiram", "ph": "Lettuce with Oyster Sauce", "portion": "2-3人", "time": "5 mins", "category": "veg", "ingredients": [{"zh": "唐生菜 1斤", "id": "Selada romain 600g", "ph": "Romaine lettuce 600g"}, {"zh": "蒜茸 1湯匙", "id": "Bawang putih cincang 1 sdm", "ph": "Minced garlic 1 kutsara"}, {"zh": "蠔油 2湯匙", "id": "Saus tiram 2 sdm", "ph": "Oyster sauce 2 kutsara"}, {"zh": "油、鹽 各少許", "id": "Minyak, garam secukupnya", "ph": "Oil, salt to taste"}], "steps": [{"zh": "生菜逐塊葉撕下，洗淨備用。", "id": "Cuci bersih daun selada.", "ph": "Hugasan ang lettuce."}, {"zh": "燒滾一鍋水，加入少許油和鹽。", "id": "Didihkan air, tambah minyak dan garam.", "ph": "Pakuluin ang tubig, magdagdag ng mantika at asin."}, {"zh": "放入生菜灼約 30 秒至軟身，馬上撈起瀝乾水分上碟。", "id": "Rebus selada 30 detik, angkat tiriskan.", "ph": "Ilaga ang lettuce ng 30 segundo, hanguin at patuyuin."}, {"zh": "熱鑊下油爆香蒜茸，加入蠔油和少許水煮滾，淋在生菜上即成。", "id": "Tumis bawang putih, saus tiram, sedikit air, siram ke selada.", "ph": "Igisa ang bawang, oyster sauce, konting tubig, ibuhos sa lettuce."}]}, {"id": 14, "hk": "三色椒炒肉絲", "id_name": "Tumis Babi Iris dengan Paprika Tiga Warna", "ph": "Stir-fried Shredded Pork with Bell Peppers", "portion": "2-3人", "time": "20 mins", "category": "pork", "ingredients": [{"zh": "瘦肉 200克", "id": "Daging babi tanpa lemak 200g", "ph": "Lean pork 200g"}, {"zh": "紅、黃、青椒 各半個", "id": "Paprika merah, kuning, hijau 1/2 masing-masing", "ph": "Red, yellow, green bell pepper 1/2 each"}, {"zh": "蒜茸 1茶匙", "id": "Bawang putih cincang 1 sdt", "ph": "Minced garlic 1 kutsarita"}], "steps": [{"zh": "瘦肉切絲，用少許生抽、糖、生粉醃 15 分鐘。", "id": "Iris babi, marinasi dengan kecap asin, gula, maizena 15 menit.", "ph": "Hiwain ang baboy, i-marinate sa toyo, asukal, cornstarch ng 15 minuto."}, {"zh": "三色椒洗淨去籽，切絲備用。", "id": "Bersihkan dan iris paprika.", "ph": "Hugasan at hiwain ang bell peppers."}, {"zh": "熱鑊落油，炒熟肉絲，盛起備用。", "id": "Panaskan minyak, tumis babi iris hingga matang, angkat.", "ph": "Initin ang mantika, lutuin ang baboy, itabi."}, {"zh": "原鑊爆香蒜茸，加入三色椒絲炒軟。", "id": "Tumis bawang putih, masukkan paprika, tumis hingga layu.", "ph": "Igisa ang bawang, ilagay ang bell peppers, lutuin."}, {"zh": "肉絲回鑊炒勻，加少許鹽調味即成。", "id": "Masukkan babi, aduk rata, bumbui garam.", "ph": "Ibalik ang baboy, haluin, timplahan ng asin."}]}, {"id": 15, "hk": "冬菇炆雞", "id_name": "Ayam Rebus Jamur Hioko", "ph": "Braised Chicken with Shiitake Mushrooms", "portion": "4-5人", "time": "35 mins", "category": "poultry", "ingredients": [{"zh": "雞 半隻或雞髀 2隻", "id": "Ayam 1/2 ekor atau 2 paha ayam", "ph": "Chicken 1/2 piece or 2 chicken legs"}, {"zh": "乾冬菇 6隻", "id": "Jamur hioko kering 6 buah", "ph": "Dried shiitake mushrooms 6 pieces"}, {"zh": "薑片 3片", "id": "Jahe 3 iris", "ph": "Luya 3 hiwa"}, {"zh": "生抽 2湯匙", "id": "Kecap asin 2 sdm", "ph": "Soy sauce 2 kutsara"}, {"zh": "老抽 1湯匙", "id": "Kecap hitam 1 sdm", "ph": "Dark soy sauce 1 kutsara"}], "steps": [{"zh": "冬菇預先浸軟，去蒂切半。保留浸冬菇水。", "id": "Rendam jamur, buang batang, belah dua. Simpan air rendaman.", "ph": "Ibabad ang mushrooms, alisin ang tangkay, hatiin. Itabi ang tubig."}, {"zh": "雞斬件，用少許生抽、糖、生粉醃 30 分鐘。", "id": "Potong ayam, marinasi dengan kecap asin, gula, maizena 30 menit.", "ph": "Hiwain ang manok, i-marinate sa toyo, asukal, cornstarch ng 30 minuto."}, {"zh": "熱鑊落油，爆香薑片，放入雞件煎至表面金黃。", "id": "Panaskan minyak, tumis jahe, goreng ayam hingga kecoklatan.", "ph": "Initin ang mantika, igisa ang luya, lutuin ang manok hanggang maging golden brown."}, {"zh": "加入冬菇炒勻，倒入浸冬菇水及適量清水(蓋過材料一半)。", "id": "Masukkan jamur, air rendaman, dan air secukupnya.", "ph": "Ilagay ang mushrooms, tubig, at dagdagan ng tubig."}, {"zh": "加入生抽、老抽、冰糖調味，煮滾後轉細火炆 20 分鐘，大火收汁即成。", "id": "Bumbui, didihkan, masak api kecil 20 menit, kentalkan saus.", "ph": "Timplahan, pakuluin, lutuin sa mahinang apoy ng 20 minuto, palaputin ang sarsa."}]}, {"id": 16, "hk": "金銀蛋莧菜", "id_name": "Bayam Amaranth dengan Telur Tiga Macam", "ph": "Amaranth with Three Kinds of Eggs", "portion": "2-3人", "time": "15 mins", "category": "veg", "ingredients": [{"zh": "莧菜 1斤", "id": "Bayam amaranth 600g", "ph": "Amaranth 600g"}, {"zh": "鹹蛋 1隻", "id": "Telur asin 1 butir", "ph": "Salted egg 1 piraso"}, {"zh": "皮蛋 1隻", "id": "Telur bitan 1 butir", "ph": "Century egg 1 piraso"}, {"zh": "蒜頭 4瓣", "id": "Bawang putih 4 siung", "ph": "Garlic 4 cloves"}, {"zh": "清湯 半杯", "id": "Kaldu ayam 1/2 cangkir", "ph": "Chicken broth 1/2 cup"}], "steps": [{"zh": "莧菜洗淨，摘好備用。鹹蛋及皮蛋去殼，切粒。蒜頭拍扁。", "id": "Bersihkan bayam. Kupas dan potong telur asin & bitan. Memarkan bawang.", "ph": "Hugasan ang amaranth. Balatan at hiwain ang salted egg at century egg. Pitpitin ang bawang."}, {"zh": "熱鑊下油，爆香蒜蓉。", "id": "Panaskan minyak, tumis bawang putih.", "ph": "Initin ang mantika, igisa ang bawang."}, {"zh": "加入清湯及水煮滾。", "id": "Masukkan kaldu dan air, didihkan.", "ph": "Ilagay ang kaldu at tubig, pakuluin."}, {"zh": "放入莧菜煮腍。", "id": "Masukkan bayam, masak hingga empuk.", "ph": "Ilagay ang amaranth, lutuin hanggang lumambot."}, {"zh": "加入鹹蛋粒及皮蛋粒煮滾，不用加鹽即成。", "id": "Masukkan telur asin dan bitan, didihkan, angkat.", "ph": "Ilagay ang salted egg at century egg, pakuluin, hanguin."}]}, {"id": 17, "hk": "南瓜排骨", "id_name": "Iga Babi Labu Kuning", "ph": "Pork Ribs with Pumpkin", "portion": "4-5人", "time": "30 mins", "category": "pork", "ingredients": [{"zh": "排骨 300克", "id": "Iga babi 300g", "ph": "Pork ribs 300g"}, {"zh": "南瓜 300克", "id": "Labu kuning 300g", "ph": "Pumpkin 300g"}, {"zh": "蒜茸 1茶匙", "id": "Bawang putih cincang 1 sdt", "ph": "Minced garlic 1 kutsarita"}, {"zh": "生抽 1湯匙", "id": "Kecap asin 1 sdm", "ph": "Soy sauce 1 kutsara"}], "steps": [{"zh": "排骨洗淨，用生抽、糖、生粉醃 20 分鐘。", "id": "Cuci iga, marinasi dengan kecap asin, gula, maizena 20 menit.", "ph": "Hugasan ang ribs, i-marinate sa toyo, asukal, cornstarch ng 20 minuto."}, {"zh": "南瓜去皮去籽，切塊備用。", "id": "Kupas, buang biji labu, potong dadu.", "ph": "Balatan, alisin ang buto ng kalabasa, hiwain."}, {"zh": "熱鑊落油，爆香蒜茸，下排骨煎至表面轉色。", "id": "Tumis bawang putih, goreng iga hingga berubah warna.", "ph": "Igisa ang bawang, lutuin ang ribs hanggang mag-iba ang kulay."}, {"zh": "加入南瓜塊略炒。", "id": "Masukkan labu, tumis sebentar.", "ph": "Ilagay ang kalabasa, lutuin."}, {"zh": "加水蓋過材料一半，中火炆 15-20 分鐘至南瓜腍熟，收汁即成。", "id": "Tambah air, masak 15-20 menit hingga labu empuk, kentalkan saus.", "ph": "Dagdagan ng tubig, lutuin ng 15-20 minuto hanggang lumambot ang kalabasa, palaputin ang sarsa."}]}, {"id": 18, "hk": "荷豆炒臘腸", "id_name": "Tumis Kacang Kapri dengan Sosis Babi (Lap Cheong)", "ph": "Snow Peas with Chinese Sausage", "portion": "2-3人", "time": "15 mins", "category": "pork", "ingredients": [{"zh": "荷蘭豆 200克", "id": "Kacang kapri 200g", "ph": "Snow peas 200g"}, {"zh": "臘腸 1條", "id": "Sosis babi (Lap Cheong) 1 batang", "ph": "Chinese sausage 1 piraso"}, {"zh": "蒜蓉 半茶匙", "id": "Bawang putih cincang 1/2 sdt", "ph": "Minced garlic 1/2 tsp"}], "steps": [{"zh": "荷蘭豆撕去硬筋，洗淨備用。", "id": "Buang serat kacang kapri, cuci bersih.", "ph": "Alisin ang matigas na bahagi ng snow peas, hugasan."}, {"zh": "臘腸用熱水略燙，切片備用。", "id": "Seduh sosis dengan air panas, iris.", "ph": "Ibabad sa mainit na tubig ang sausage, hiwain."}, {"zh": "熱鑊落少許油，爆香蒜蓉，下臘腸炒出油香。", "id": "Panaskan minyak, tumis bawang putih dan sosis hingga harum.", "ph": "Initin ang mantika, igisa ang bawang at sausage."}, {"zh": "加入荷蘭豆快炒 1-2 分鐘，加少許鹽及糖調味即成。", "id": "Masukkan kacang kapri, tumis cepat 1-2 menit, bumbui.", "ph": "Ilagay ang snow peas, lutuin ng 1-2 minuto, timplahan."}]}, {"id": 19, "hk": "豆腐火腩", "id_name": "Babi Panggang Tahu", "ph": "Roast Pork Belly with Tofu", "portion": "4-5人", "time": "25 mins", "category": "pork", "ingredients": [{"zh": "燒肉 (火腩) 200克", "id": "Babi panggang 200g", "ph": "Roast pork belly 200g"}, {"zh": "硬豆腐 1磚", "id": "Tahu keras 1 blok", "ph": "Firm tofu 1 block"}, {"zh": "冬菇 4隻", "id": "Jamur hioko 4 buah", "ph": "Shiitake mushrooms 4 pieces"}, {"zh": "薑片 3片，蒜茸 1茶匙", "id": "Jahe 3 iris, bawang putih cincang 1 sdt", "ph": "Ginger 3 slices, garlic 1 tsp"}], "steps": [{"zh": "冬菇浸軟切半；豆腐切塊；火腩切塊。", "id": "Rendam jamur, belah dua; potong tahu; potong babi panggang.", "ph": "Ibabad ang mushrooms, hatiin; hiwain ang tofu; hiwain ang pork belly."}, {"zh": "熱鑊落油，將豆腐煎至兩面金黃，盛起。", "id": "Goreng tahu hingga kecoklatan, angkat.", "ph": "I-prito ang tofu hanggang maging golden brown, itabi."}, {"zh": "原鑊爆香薑片、蒜茸，下火腩及冬菇炒香。", "id": "Tumis jahe, bawang putih, masukkan babi panggang dan jamur.", "ph": "Igisa ang luya, bawang, ilagay ang pork belly at mushrooms."}, {"zh": "加入蠔油、生抽、糖及適量水煮滾。", "id": "Masukkan saus tiram, kecap asin, gula, air, didihkan.", "ph": "Ilagay ang oyster sauce, toyo, asukal, tubig, pakuluin."}, {"zh": "豆腐回鑊，細火炆 10 分鐘，埋芡即成。", "id": "Masukkan tahu, masak api kecil 10 menit, kentalkan saus.", "ph": "Ibalik ang tofu, lutuin sa mahinang apoy ng 10 minuto, palaputin ang sarsa."}]}, {"id": 20, "hk": "蝦醬通菜", "id_name": "Tumis Kangkung Saus Udang (Terasi)", "ph": "Water Spinach with Shrimp Paste", "portion": "2-3人", "time": "10 mins", "category": "veg", "ingredients": [{"zh": "通菜 1斤", "id": "Kangkung 600g", "ph": "Water spinach 600g"}, {"zh": "蝦醬 1-1.5湯匙", "id": "Saus udang (terasi) 1-1.5 sdm", "ph": "Shrimp paste 1-1.5 kutsara"}, {"zh": "蒜蓉 1湯匙", "id": "Bawang putih cincang 1 sdm", "ph": "Minced garlic 1 kutsara"}, {"zh": "紅椒絲 少許 (可省)", "id": "Cabai merah iris sedikit (opsional)", "ph": "Sliced red chili (optional)"}], "steps": [{"zh": "通菜洗淨，切段，瀝乾水分。", "id": "Cuci bersih kangkung, potong-potong, tiriskan.", "ph": "Hugasan ang water spinach, hiwain, patuyuin."}, {"zh": "將蝦醬加少許糖和水拌勻(稀釋以免過鹹且易炒勻)。", "id": "Campur terasi dengan sedikit gula dan air.", "ph": "Ihalo ang shrimp paste sa asukal at tubig."}, {"zh": "熱鑊落油，爆香蒜蓉，倒入蝦醬炒香。", "id": "Panaskan minyak, tumis bawang putih dan campuran terasi.", "ph": "Initin ang mantika, igisa ang bawang at shrimp paste."}, {"zh": "轉大火，加入通菜及紅椒絲快速翻炒至軟身熟透即成。", "id": "Besarkan api, masukkan kangkung dan cabai, tumis cepat hingga matang.", "ph": "Lakasan ang apoy, ilagay ang water spinach at sili, lutuin ng mabilis hanggang maluto."}]}];
+const recipesData = [
+  {
+    "id": 1,
+    "hk": "番茄炒蛋",
+    "id_name": "Tumis Tomat dan Telur",
+    "ph": "Ginisang Kamatis at Itlog",
+    "portion": "2-3人",
+    "time": "15 mins",
+    "category": "egg",
+    "ingredients": [
+      {"zh": "番茄 3個", "id": "Tomat 3 buah", "ph": "Kamatis 3 piraso"},
+      {"zh": "雞蛋 3隻", "id": "Telur 3 butir", "ph": "Itlog 3 piraso"},
+      {"zh": "鹽 1茶匙", "id": "Garam 1 sdt", "ph": "Asin 1 kutsarita"},
+      {"zh": "糖 2茶匙", "id": "Gula 2 sdt", "ph": "Asukal 2 kutsarita"}
+    ],
+    "steps": [
+      {"zh": "番茄切塊，雞蛋打勻備用。", "id": "Potong tomat, kocok telur.", "ph": "Hiwain ang kamatis, batihin ang itlog."},
+      {"zh": "燒熱鑊落油，先炒熟雞蛋盛起。", "id": "Panaskan wajan dengan minyak, goreng telur lalu angkat.", "ph": "Initin ang kawali, lutuin ang itlog at itabi."},
+      {"zh": "原鑊加少許油，炒軟番茄，加入鹽和糖調味。", "id": "Tumis tomat hingga layu, bumbui dengan garam dan gula.", "ph": "Igisa ang kamatis hanggang lumambot, timplahan."},
+      {"zh": "將雞蛋回鑊炒勻即成。", "id": "Masukkan kembali telur, aduk rata.", "ph": "Ibalik ang itlog sa kawali, haluin."}
+    ]
+  },
+  {
+    "id": 2,
+    "hk": "梅菜蒸肉餅",
+    "id_name": "Daging Babi Cincang Kukus dengan Sayur Asin",
+    "ph": "Pinasingaw na Baboy na may Preserved Cabbage",
+    "portion": "4-5人",
+    "time": "30 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "半肥瘦豬肉碎 300克", "id": "Daging babi giling 300g", "ph": "Giniling na baboy 300g"},
+      {"zh": "甜梅菜 1棵", "id": "Sayur asin manis 1 ikat", "ph": "Sweet preserved cabbage 1 piraso"},
+      {"zh": "生抽 1湯匙", "id": "Kecap asin 1 sdm", "ph": "Toyo 1 kutsara"}
+    ],
+    "steps": [
+      {"zh": "梅菜浸洗乾淨切碎，與豬肉碎及調味拌勻。", "id": "Cuci sayur asin, cincang, campur dengan daging.", "ph": "Hugasan ang preserved cabbage, tadtarin, ihalo sa karne."},
+      {"zh": "鋪平在碟上，大火蒸約 15 分鐘至熟透。", "id": "Ratakan di piring, kukus api besar 15 menit.", "ph": "Ilatag sa plato, pasingawan ng 15 minuto."}
+    ]
+  },
+  {
+    "id": 3,
+    "hk": "蒜蓉炒菜心",
+    "id_name": "Tumis Sawi Hijau dengan Bawang Putih",
+    "ph": "Ginisang Choy Sum na may Bawang",
+    "portion": "2-3人",
+    "time": "10 mins",
+    "category": "veg",
+    "ingredients": [
+      {"zh": "菜心 1斤", "id": "Sawi hijau 600g", "ph": "Choy sum 600g"},
+      {"zh": "蒜蓉 2湯匙", "id": "Bawang putih cincang 2 sdm", "ph": "Tinadtad na bawang 2 kutsara"}
+    ],
+    "steps": [
+      {"zh": "菜心洗淨切段，爆香蒜蓉後下菜心大火快炒熟即成。", "id": "Tumis bawang putih, masukkan sawi hijau, tumis cepat.", "ph": "Igisa ang bawang, ilagay ang choy sum, igisa nang mabilis."}
+    ]
+  },
+  {
+    "id": 4,
+    "hk": "清蒸海上鮮",
+    "id_name": "Ikan Kukus Fresh",
+    "ph": "Steamed Fresh Fish",
+    "portion": "4-5人",
+    "time": "20 mins",
+    "category": "seafood",
+    "ingredients": [
+      {"zh": "新鮮魚 1條", "id": "Ikan segar 1 ekor", "ph": "Fresh fish 1 piraso"},
+      {"zh": "蔥薑絲 適量", "id": "Irisan daun bawang & jahe secukupnya", "ph": "Ginger & spring onion strips"}
+    ],
+    "steps": [
+      {"zh": "魚鋪上薑片大火蒸 8-10 分鐘，倒去魚水，鋪蔥絲淋滾油及蒸魚豉油。", "id": "Kukus ikan 8-10 menit, buang airnya, taburi daun bawang, siram minyak panas & kecap ikan.", "ph": "Pasingawan ang isda ng 8-10 mins, itapon ang sabaw, lagyan ng sibuyas at ibuhos ang mainit na mantika at toyo."}
+    ]
+  },
+  {
+    "id": 5,
+    "hk": "粟米肉粒",
+    "id_name": "Daging Babi Cincang Jagung",
+    "ph": "Minced Pork with Corn",
+    "portion": "2-3人",
+    "time": "15 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "豬肉粒 200克", "id": "Daging babi potong dadu 200g", "ph": "Diced pork 200g"},
+      {"zh": "粟米蓉 1罐", "id": "Krim jagung 1 kaleng", "ph": "Cream style corn 1 can"}
+    ],
+    "steps": [
+      {"zh": "炒熟肉粒，倒入粟米蓉及少許水煮滾，加入蛋花即成。", "id": "Tumis daging, masukkan krim jagung & air, tambahkan kocokan telur.", "ph": "Lutuin ang baboy, ilagay ang cream corn at tubig, ihalo ang bati na itlog."}
+    ]
+  },
+  {
+    "id": 6,
+    "hk": "洋蔥豬扒",
+    "id_name": "Babi Panggang Bawang Bombay",
+    "ph": "Pork Chops with Onion",
+    "portion": "2-3人",
+    "time": "25 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "豬扒 3塊", "id": "Pork chop 3 potong", "ph": "Pork chops 3 piraso"},
+      {"zh": "洋蔥 1個", "id": "Bawang bombay 1 buah", "ph": "Sibuyas 1 piraso"}
+    ],
+    "steps": [
+      {"zh": "煎香豬扒至熟盛起，原鑊炒香洋蔥，調味後將豬扒回鑊拌勻。", "id": "Goreng babi hingga matang, tumis bawang bombay, campurkan kembali babi.", "ph": "I-prito ang pork chops, igisa ang sibuyas, ihalo uli ang baboy sa sarsa."}
+    ]
+  },
+  {
+    "id": 7,
+    "hk": "節瓜粉絲蝦米",
+    "id_name": "Labu Air Soun Ebi",
+    "ph": "Hairy Gourd with Vermicelli and Dried Shrimp",
+    "portion": "4-5人",
+    "time": "20 mins",
+    "category": "veg",
+    "ingredients": [
+      {"zh": "節瓜 2個", "id": "Labu air 2 buah", "ph": "Hairy gourd 2 piraso"},
+      {"zh": "粉絲 1札", "id": "Soun 1 ikat", "ph": "Vermicelli 1 bundle"},
+      {"zh": "蝦米 1湯匙", "id": "Ebi 1 sdm", "ph": "Dried shrimp 1 kutsara"}
+    ],
+    "steps": [
+      {"zh": "爆香蝦米及節瓜，加湯炆軟，最後加入粉絲煮至吸汁。", "id": "Tumis ebi & labu, tambah air/kaldu, masukkan soun hingga meresap.", "ph": "Igisa ang ebi at kalabasa, lagyan ng sabaw, ilagay ang vermicelli."}
+    ]
+  },
+  {
+    "id": 8,
+    "hk": "蝦仁炒蛋",
+    "id_name": "Telur Orak-arik Udang",
+    "ph": "Scrambled Eggs with Shrimp",
+    "portion": "2-3人",
+    "time": "15 mins",
+    "category": "egg",
+    "ingredients": [
+      {"zh": "蝦仁 150克", "id": "Udang 150g", "ph": "Shrimp 150g"},
+      {"zh": "雞蛋 4隻", "id": "Telur 4 butir", "ph": "Itlog 4 piraso"}
+    ],
+    "steps": [
+      {"zh": "蝦仁炒熟後加入蛋液中，熱鑊中火炒至軟滑凝固即可。", "id": "Tumis udang, campur ke kocokan telur, orak-arik hingga setengah matang.", "ph": "Lutuin ang hipon, ihalo sa itlog, lutuin sa katamtamang apoy."}
+    ]
+  },
+  {
+    "id": 9,
+    "hk": "豉汁排骨",
+    "id_name": "Iga Babi Saus Kedelai Hitam",
+    "ph": "Pork Ribs in Black Bean Sauce",
+    "portion": "4-5人",
+    "time": "25 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "排骨 300克", "id": "Iga babi 300g", "ph": "Pork ribs 300g"},
+      {"zh": "豆豉蒜蓉 1湯匙", "id": "Douchi & bawang putih 1 sdm", "ph": "Black bean & garlic 1 kutsara"}
+    ],
+    "steps": [
+      {"zh": "排骨加入豆豉蒜蓉及調味拌勻，平鋪碟上大火蒸 15 分鐘。", "id": "Campur iga dengan douchi & bawang putih, kukus api besar 15 menit.", "ph": "I-marinate ang ribs sa black bean at bawang, pasingawan ng 15 minuto."}
+    ]
+  },
+  {
+    "id": 10,
+    "hk": "西蘭花炒帶子",
+    "id_name": "Tumis Brokoli Kerang",
+    "ph": "Broccoli with Scallops",
+    "portion": "4-5人",
+    "time": "15 mins",
+    "category": "seafood",
+    "ingredients": [
+      {"zh": "西蘭花 1個", "id": "Brokoli 1 buah", "ph": "Broccoli 1 piraso"},
+      {"zh": "帶子 200克", "id": "Kerang scallop 200g", "ph": "Scallops 200g"}
+    ],
+    "steps": [
+      {"zh": "西蘭花汆水，帶子煎熟，爆香蒜蓉後將兩者大火炒勻即成。", "id": "Rebus brokoli, goreng kerang, tumis bawang putih lalu campurkan semua.", "ph": "Pakuluan ang broccoli, lutuin ang scallops, igisa sa bawang at ihalo."}
+    ]
+  },
+  {
+    "id": 11,
+    "hk": "魚香茄子",
+    "id_name": "Terong Saus Ikan Asin",
+    "ph": "Eggplant with Salted Fish",
+    "portion": "2-3人",
+    "time": "25 mins",
+    "category": "veg",
+    "ingredients": [
+      {"zh": "茄子 2條", "id": "Terong 2 buah", "ph": "Eggplant 2 piraso"},
+      {"zh": "鹹魚粒及肉碎 適量", "id": "Ikan asin & daging giling secukupnya", "ph": "Salted fish & minced pork"}
+    ],
+    "steps": [
+      {"zh": "茄子煎軟盛起，爆香鹹魚粒及肉碎，加入茄子及醬汁炆透。", "id": "Goreng terong, tumis ikan asin & daging giling, masukkan terong & saus.", "ph": "I-prito ang eggplant, igisa ang salted fish at karne, ilagay ang eggplant."}
+    ]
+  },
+  {
+    "id": 12,
+    "hk": "馬蹄土魷蒸肉餅",
+    "id_name": "Daging Kukus Bangkuang & Cumi",
+    "ph": "Steamed Pork Patty with Water Chestnut & Squid",
+    "portion": "4-5人",
+    "time": "25 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "豬肉碎 300克", "id": "Daging babi giling 300g", "ph": "Minced pork 300g"},
+      {"zh": "馬蹄及乾魷魚粒 適量", "id": "Bangkuang & cumi kering secukupnya", "ph": "Water chestnut & dried squid"}
+    ],
+    "steps": [
+      {"zh": "肉碎加入馬蹄粒及魷魚粒攪至起膠，平鋪碟上蒸 15 分鐘。", "id": "Campur daging dengan bangkuang & cumi, ratakan lalu kukus 15 menit.", "ph": "Haluin ang karne, water chestnut, at squid, pasingawan ng 15 minuto."}
+    ]
+  },
+  {
+    "id": 13,
+    "hk": "蠔油生菜",
+    "id_name": "Selada Saus Tiram",
+    "ph": "Lettuce with Oyster Sauce",
+    "portion": "2-3人",
+    "time": "5 mins",
+    "category": "veg",
+    "ingredients": [
+      {"zh": "生菜 1斤", "id": "Selada 600g", "ph": "Lettuce 600g"},
+      {"zh": "蠔油蒜蓉 適量", "id": "Saus tiram & bawang putih secukupnya", "ph": "Oyster sauce & garlic"}
+    ],
+    "steps": [
+      {"zh": "生菜滾水加油鹽灼 30 秒撈起，淋上爆香的蒜蓉蠔油汁。", "id": "Rebus selada 30 detik, tiriskan, siram saus tiram bawang putih.", "ph": "Ilaga ang lettuce ng 30 segundo, ibuhos ang ginisang bawang at oyster sauce."}
+    ]
+  },
+  {
+    "id": 14,
+    "hk": "三色椒炒肉絲",
+    "id_name": "Tumis Babi Iris Paprika Tiga Warna",
+    "ph": "Stir-fried Shredded Pork with Bell Peppers",
+    "portion": "2-3人",
+    "time": "20 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "瘦肉絲 200克", "id": "Daging babi iris 200g", "ph": "Shredded pork 200g"},
+      {"zh": "三色甜椒 各半個", "id": "Paprika 3 warna", "ph": "3 color bell peppers"}
+    ],
+    "steps": [
+      {"zh": "炒熟肉絲盛起，爆香三色椒絲後將肉絲回鑊快炒即成。", "id": "Tumis daging iris, tumis paprika, campurkan kembali.", "ph": "Lutuin ang karne, igisa ang bell peppers, ihalo uli ang karne."}
+    ]
+  },
+  {
+    "id": 15,
+    "hk": "冬菇炆雞",
+    "id_name": "Ayam Rebus Jamur Hioko",
+    "ph": "Braised Chicken with Shiitake Mushrooms",
+    "portion": "4-5人",
+    "time": "35 mins",
+    "category": "poultry",
+    "ingredients": [
+      {"zh": "雞 半隻", "id": "Ayam 1/2 ekor", "ph": "Chicken 1/2 piece"},
+      {"zh": "乾冬菇 6隻", "id": "Jamur hioko 6 buah", "ph": "Shiitake mushrooms 6 pieces"}
+    ],
+    "steps": [
+      {"zh": "煎香雞件及爆香冬菇，倒入冬菇水及調味細火炆 20 分鐘。", "id": "Goreng ayam & jamur, tambah air jamur & bumbu, masak 20 menit.", "ph": "Igisa ang manok at mushrooms, lagyan ng tubig at iluto ng 20 mins."}
+    ]
+  },
+  {
+    "id": 16,
+    "hk": "金銀蛋莧菜",
+    "id_name": "Bayam Amaranth Telur Tiga Macam",
+    "ph": "Amaranth with Three Kinds of Eggs",
+    "portion": "2-3人",
+    "time": "15 mins",
+    "category": "veg",
+    "ingredients": [
+      {"zh": "莧菜 1斤", "id": "Bayam amaranth 600g", "ph": "Amaranth 600g"},
+      {"zh": "鹹蛋及皮蛋 各1隻", "id": "Telur asin & telur bitan 1 butir", "ph": "Salted egg & century egg 1 piece"}
+    ],
+    "steps": [
+      {"zh": "爆香蒜頭加入上湯，放入莧菜煮腍，最後加入皮蛋鹹蛋粒煮滾。", "id": "Tumis bawang putih & kaldu, masukkan bayam, tambah telur asin & bitan.", "ph": "Igisa ang bawang at kaldu, ilagay ang amaranth, idagdag ang mga itlog."}
+    ]
+  },
+  {
+    "id": 17,
+    "hk": "南瓜排骨",
+    "id_name": "Iga Babi Labu Kuning",
+    "ph": "Pork Ribs with Pumpkin",
+    "portion": "4-5人",
+    "time": "30 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "排骨 300克", "id": "Iga babi 300g", "ph": "Pork ribs 300g"},
+      {"zh": "南瓜 300克", "id": "Labu kuning 300g", "ph": "Pumpkin 300g"}
+    ],
+    "steps": [
+      {"zh": "排骨煎香，加入南瓜塊及水中火炆 15-20 分鐘至南瓜軟腍。", "id": "Goreng iga, masukkan labu kuning & air, masak 15-20 menit.", "ph": "I-prito ang ribs, ilagay ang kalabasa at tubig, lutuin ng 15-20 mins."}
+    ]
+  },
+  {
+    "id": 18,
+    "hk": "荷豆炒臘腸",
+    "id_name": "Tumis Kacang Kapri Sosis Babi",
+    "ph": "Snow Peas with Chinese Sausage",
+    "portion": "2-3人",
+    "time": "15 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "荷蘭豆 200克", "id": "Kacang kapri 200g", "ph": "Snow peas 200g"},
+      {"zh": "臘腸 1條", "id": "Sosis babi (Lap Cheong) 1 batang", "ph": "Chinese sausage 1 piece"}
+    ],
+    "steps": [
+      {"zh": "臘腸切片爆香出油，加入荷蘭豆大火快炒 2 分鐘調味即成。", "id": "Tumis sosis hingga harum, masukkan kacang kapri, tumis 2 menit.", "ph": "Igisa ang sausage, ilagay ang snow peas, igisa ng 2 minuto."}
+    ]
+  },
+  {
+    "id": 19,
+    "hk": "豆腐火腩",
+    "id_name": "Babi Panggang Tahu",
+    "ph": "Roast Pork Belly with Tofu",
+    "portion": "4-5人",
+    "time": "25 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "燒肉 200克", "id": "Babi panggang 200g", "ph": "Roast pork belly 200g"},
+      {"zh": "硬豆腐 1磚", "id": "Tahu keras 1 blok", "ph": "Firm tofu 1 block"}
+    ],
+    "steps": [
+      {"zh": "豆腐煎金黃，爆香薑蒜及燒肉，加水及蠔油炆 10 分鐘即成。", "id": "Goreng tahu, tumis babi panggang & bumbu, masak dengan air & saus tiram.", "ph": "I-prito ang tofu, igisa ang roast pork, lutuin sa tubig at oyster sauce."}
+    ]
+  },
+  {
+    "id": 20,
+    "hk": "蝦醬通菜",
+    "id_name": "Tumis Kangkung Saus Terasi",
+    "ph": "Water Spinach with Shrimp Paste",
+    "portion": "2-3人",
+    "time": "10 mins",
+    "category": "veg",
+    "ingredients": [
+      {"zh": "通菜 1斤", "id": "Kangkung 600g", "ph": "Water spinach 600g"},
+      {"zh": "蝦醬 1.5湯匙", "id": "Saus terasi 1.5 sdm", "ph": "Shrimp paste 1.5 kutsara"}
+    ],
+    "steps": [
+      {"zh": "爆香蒜蓉及蝦醬，轉大火加入通菜快速翻炒至軟身即可。", "id": "Tumis bawang putih & terasi, masukkan kangkung dengan api besar.", "ph": "Igisa ang bawang at shrimp paste, ilagay ang water spinach sa malakas na apoy."}
+    ]
+  },
+  {
+    "id": 21,
+    "hk": "可樂雞翼",
+    "id_name": "Sayap Ayam Masak Coca Cola",
+    "ph": "Coca Cola Chicken Wings",
+    "portion": "2-3人",
+    "time": "25 mins",
+    "category": "poultry",
+    "ingredients": [
+      {"zh": "雞翼 8隻", "id": "Sayap ayam 8 buah", "ph": "Chicken wings 8 pieces"},
+      {"zh": "可樂 1罐", "id": "Coca cola 1 kaleng", "ph": "Coca cola 1 can"},
+      {"zh": "生抽 2湯匙", "id": "Kecap asin 2 sdm", "ph": "Soy sauce 2 kutsara"}
+    ],
+    "steps": [
+      {"zh": "雞翼煎至兩面金黃，倒入可樂及生抽，中火炆至收汁即可。", "id": "Goreng sayap ayam hingga kecoklatan, tuang cola & kecap, masak hingga meresap.", "ph": "I-prito ang chicken wings, ibuhos ang cola at toyo, lutuin hanggang lumapot."}
+    ]
+  },
+  {
+    "id": 22,
+    "hk": "豉汁蒸雞",
+    "id_name": "Ayam Kukus Saus Kedelai Hitam",
+    "ph": "Steamed Chicken in Black Bean Sauce",
+    "portion": "3-4人",
+    "time": "25 mins",
+    "category": "poultry",
+    "ingredients": [
+      {"zh": "雞半隻", "id": "Ayam 1/2 ekor", "ph": "Chicken 1/2 piece"},
+      {"zh": "豆豉蒜蓉 1.5湯匙", "id": "Douchi & bawang putih 1.5 sdm", "ph": "Black bean & garlic 1.5 kutsara"}
+    ],
+    "steps": [
+      {"zh": "雞件拌入豆豉蒜蓉、生抽、生粉醃 20 分鐘，大火蒸 15 分鐘至熟。", "id": "Marinasi ayam dengan douchi & bumbu 20 menit, kukus api besar 15 menit.", "ph": "I-marinate ang manok sa black bean sauce ng 20 mins, pasingawan ng 15 mins."}
+    ]
+  },
+  {
+    "id": 23,
+    "hk": "手撕雞",
+    "id_name": "Ayam Suwir Wijen",
+    "ph": "Shredded Sesame Chicken",
+    "portion": "3-4人",
+    "time": "30 mins",
+    "category": "poultry",
+    "ingredients": [
+      {"zh": "雞胸肉或雞腿 2塊", "id": "Dada/paha ayam 2 potong", "ph": "Chicken breast/thigh 2 pieces"},
+      {"zh": "芝麻醬及麻油 適量", "id": "Saus wijen & minyak wijen secukupnya", "ph": "Sesame paste & sesame oil"}
+    ],
+    "steps": [
+      {"zh": "雞肉浸熟後撕成絲，拌入芝麻醬、麻油、生抽及芝麻即可。", "id": "Rebus ayam hingga matang, suwir-suwir, campur saus wijen & kecap.", "ph": "Lutuin ang manok, himayin, ihalo sa sesame paste, mantika ng linga at toyo."}
+    ]
+  },
+  {
+    "id": 24,
+    "hk": "栗子炆雞",
+    "id_name": "Ayam Rebus Kastanya",
+    "ph": "Braised Chicken with Chestnuts",
+    "portion": "4-5人",
+    "time": "40 mins",
+    "category": "poultry",
+    "ingredients": [
+      {"zh": "雞半隻", "id": "Ayam 1/2 ekor", "ph": "Chicken 1/2 piece"},
+      {"zh": "熟栗子 200克", "id": "Kastanya matang 200g", "ph": "Cooked chestnuts 200g"}
+    ],
+    "steps": [
+      {"zh": "雞件煎香，加入栗子、水及生抽蠔油，中小火炆 25 分鐘至軟腍。", "id": "Goreng ayam, masukkan kastanya, air & saus, masak 25 menit.", "ph": "I-prito ang manok, ilagay ang chestnuts, tubig at sarsa, lutuin ng 25 mins."}
+    ]
+  },
+  {
+    "id": 25,
+    "hk": "檸檬雞",
+    "id_name": "Ayam Saus Lemon",
+    "ph": "Lemon Chicken",
+    "portion": "2-3人",
+    "time": "25 mins",
+    "category": "poultry",
+    "ingredients": [
+      {"zh": "無骨雞扒 2塊", "id": "Paha ayam tanpa tulang 2 potong", "ph": "Boneless chicken thigh 2 pieces"},
+      {"zh": "檸檬汁及糖 適量", "id": "Air lemon & gula secukupnya", "ph": "Lemon juice & sugar"}
+    ],
+    "steps": [
+      {"zh": "雞扒沾蛋液及生粉煎至金黃脆身，切塊，淋上特製酸甜檸檬汁。", "id": "Goreng ayam bersalut tepung hingga krispi, potong, siram saus lemon.", "ph": "I-prito ang manok na may harina, hiwain, ibuhos ang lemon sauce."}
+    ]
+  },
+  {
+    "id": 26,
+    "hk": "白切雞",
+    "id_name": "Ayam Rebus Hainan (Boiled Chicken)",
+    "ph": "Poached Cantonese Chicken",
+    "portion": "4-6人",
+    "time": "45 mins",
+    "category": "poultry",
+    "ingredients": [
+      {"zh": "全雞 1隻", "id": "Ayam utuh 1 ekor", "ph": "Whole chicken 1 piece"},
+      {"zh": "薑蓉蓉蓉及蔥粒 適量", "id": "Jahe & daun bawang cincang", "ph": "Minced ginger & spring onion"}
+    ],
+    "steps": [
+      {"zh": "水滾後熄火浸雞 30 分鐘至熟，過冷河切件，配薑蓉沾醬食用。", "id": "Rendam ayam dalam air panas 30 menit, potong, sajikan dengan saus jahe.", "ph": "Ibabad ang manok sa kumukulong tubig ng 30 mins, hiwain, isawsaw sa ginger dip."}
+    ]
+  },
+  {
+    "id": 27,
+    "hk": "宮保雞丁",
+    "id_name": "Ayam Kung Pao",
+    "ph": "Kung Pao Chicken",
+    "portion": "2-3人",
+    "time": "20 mins",
+    "category": "poultry",
+    "ingredients": [
+      {"zh": "雞肉粒 250克", "id": "Daging ayam dadu 250g", "ph": "Diced chicken 250g"},
+      {"zh": "花生及乾辣椒 適量", "id": "Kacang tanah & cabai kering", "ph": "Peanuts & dried chili"}
+    ],
+    "steps": [
+      {"zh": "炒香乾辣椒，加入雞粒大火快炒，最後加入花生及宮保汁炒勻。", "id": "Tumis cabai kering & ayam, tambahkan kacang tanah & saus kung pao.", "ph": "Igisa ang sili at manok, ihalo ang mani at kung pao sauce."}
+    ]
+  },
+  {
+    "id": 28,
+    "hk": "椒鹽豬扒",
+    "id_name": "Babi Goreng Garam Merica",
+    "ph": "Salt and Pepper Pork Chops",
+    "portion": "2-3人",
+    "time": "20 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "豬扒 3塊", "id": "Pork chop 3 potong", "ph": "Pork chops 3 pieces"},
+      {"zh": "椒鹽粉及蒜粒 適量", "id": "Garam merica & bawang putih", "ph": "Salt pepper powder & garlic"}
+    ],
+    "steps": [
+      {"zh": "豬扒切塊沾粉煎至酥脆，炒香蒜粒辣椒，加入豬扒及椒鹽炒勻。", "id": "Goreng babi bersalut tepung, tumis bawang & cabai, taburi garam merica.", "ph": "I-prito ang baboy, igisa ang bawang at sili, budburan ng salt pepper."}
+    ]
+  },
+  {
+    "id": 29,
+    "hk": "咕嚕肉",
+    "id_name": "Babi Asam Manis (Sweet & Sour Pork)",
+    "ph": "Sweet and Sour Pork",
+    "portion": "3-4人",
+    "time": "30 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "梅頭肉 300克", "id": "Daging babi 300g", "ph": "Pork shoulder 300g"},
+      {"zh": "菠蘿及三色椒 適量", "id": "Nanas & paprika secukupnya", "ph": "Pineapple & bell peppers"}
+    ],
+    "steps": [
+      {"zh": "肉塊沾炸粉炸至酥脆，原鑊煮滾甜酸醬汁，放入肉塊及菠蘿快速拌勻。", "id": "Goreng babi hingga krispi, masak saus asam manis, aduk rata babi & nanas.", "ph": "I-prito ang baboy, lutuin ang sweet and sour sauce, ihalo ang baboy at pinya."}
+    ]
+  },
+  {
+    "id": 30,
+    "hk": "京都骨",
+    "id_name": "Iga Babi Saus Kyoto",
+    "ph": "Peking Style Pork Ribs",
+    "portion": "3-4人",
+    "time": "30 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "排骨 400克", "id": "Iga babi 400g", "ph": "Pork ribs 400g"},
+      {"zh": "OK汁/茄汁及糖 適量", "id": "Saus tomat & gula secukupnya", "ph": "Ketchup & sugar"}
+    ],
+    "steps": [
+      {"zh": "排骨煎香至熟，加入酸甜京都醬汁慢火煮至濃稠包裹排骨即可。", "id": "Goreng iga hingga matang, tumis saus Kyoto manis gurih hingga meresap.", "ph": "I-prito ang ribs, ihalo sa sweet and savory Peking sauce hanggang lumapot."}
+    ]
+  },
+  {
+    "id": 31,
+    "hk": "鹹蛋蒸肉餅",
+    "id_name": "Daging Babi Kukus Telur Asin",
+    "ph": "Steamed Pork Patty with Salted Egg",
+    "portion": "3-4人",
+    "time": "25 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "豬肉碎 300克", "id": "Daging babi giling 300g", "ph": "Minced pork 300g"},
+      {"zh": "鹹蛋 1隻", "id": "Telur asin 1 butir", "ph": "Salted egg 1 piece"}
+    ],
+    "steps": [
+      {"zh": "肉碎調味拌勻，鹹蛋白混入肉中，鹹黃放表面，大火蒸 15 分鐘。", "id": "Campur daging & putih telur asin, taruh kuning telur di atasnya, kukus 15 menit.", "ph": "Ihalo ang karne at puti ng salted egg, ilagay ang pula sa ibabaw, pasingawan ng 15 mins."}
+    ]
+  },
+  {
+    "id": 32,
+    "hk": "蓮藕炒肉片",
+    "id_name": "Tumis Akar Teratai dengan Daging Babi",
+    "ph": "Stir-fried Pork Slices with Lotus Root",
+    "portion": "2-3人",
+    "time": "20 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "蓮藕 1節", "id": "Akar teratai 1 potong", "ph": "Lotus root 1 segment"},
+      {"zh": "豬肉片 150克", "id": "Daging babi iris 150g", "ph": "Sliced pork 150g"}
+    ],
+    "steps": [
+      {"zh": "蓮藕切薄片，炒熟肉片盛起，爆香蒜蓉下蓮藕快炒，加少許水及肉片炒勻。", "id": "Iris tipis akar teratai, tumis daging, tumis teratai, campurkan semua.", "ph": "Hiwain ang lotus root, lutuin ang karne, igisa ang lotus root at ihalo ang karne."}
+    ]
+  },
+  {
+    "id": 33,
+    "hk": "苦瓜炒肉片",
+    "id_name": "Tumis Peria (Pare) dengan Daging Babi",
+    "ph": "Stir-fried Pork Slices with Bitter Melon",
+    "portion": "2-3人",
+    "time": "20 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "苦瓜 1條", "id": "Peria (Pare) 1 buah", "ph": "Bitter melon 1 piece"},
+      {"zh": "豬肉片 150克", "id": "Daging babi iris 150g", "ph": "Sliced pork 150g"}
+    ],
+    "steps": [
+      {"zh": "苦瓜去籽切片汆水，炒熟肉片，加入苦瓜及豉汁大火炒勻。", "id": "Iris peria, rebus sebentar, tumis daging, masukkan peria & saus tauco.", "ph": "Hiwain ang bitter melon, ilaga nang bahagya, igisa kasama ang karne at toyo sauce."}
+    ]
+  },
+  {
+    "id": 34,
+    "hk": "回鍋肉",
+    "id_name": "Daging Babi Masak Saus Tauco (Hui Guo Rou)",
+    "ph": "Double-cooked Pork",
+    "portion": "3-4人",
+    "time": "25 mins",
+    "category": "pork",
+    "ingredients": [
+      {"zh": "五花腩 300克", "id": "Daging samcan 300g", "ph": "Pork belly 300g"},
+      {"zh": "青椒及豆瓣醬 適量", "id": "Paprika hijau & saus豆瓣酱", "ph": "Green pepper & chili bean paste"}
+    ],
+    "steps": [
+      {"zh": "五花腩煮熟切薄片，熱鑊炒至出油微焦，加入豆瓣醬及青椒爆炒即成。", "id": "Rebus samcan, iris tipis, tumis hingga berminyak, tambah saus cabai & paprika.", "ph": "Lutuin ang pork belly, hiwain, igisa sa chili bean paste at green pepper."}
+    ]
+  },
+  {
+    "id": 35,
+    "hk": "干炒牛河",
+    "id_name": "Kwetiau Goreng Daging Sapi",
+    "ph": "Stir-fried Beef Rice Noodles",
+    "portion": "2人",
+    "time": "15 mins",
+    "category": "beef",
+    "ingredients": [
+      {"zh": "河粉 300克", "id": "Kwetiau 300g", "ph": "Flat rice noodles 300g"},
+      {"zh": "牛肉片 150克", "id": "Daging sapi iris 150g", "ph": "Sliced beef 150g"},
+      {"zh": "芽菜及韭黃 適量", "id": "Tauge & kucai secukupnya", "ph": "Bean sprouts & chives"}
+    ],
+    "steps": [
+      {"zh": "牛肉片炒至半熟盛起，大火熱油炒香河粉，加生抽老抽、牛肉及芽菜快炒乾身。", "id": "Tumis sapi setengah matang, tumis kwetiau api besar, tambah kecap, sapi & tauge.", "ph": "Lutuin ang baka, igisa ang noodles sa malakas na apoy, idagdag ang toyo at tauge."}
+    ]
+  },
+  {
+    "id": 36,
+    "hk": "菜心炒牛肉",
+    "id_name": "Tumis Daging Sapi dengan Sawi Hijau",
+    "ph": "Stir-fried Beef with Choy Sum",
+    "portion": "2-3人",
+    "time": "15 mins",
+    "category": "beef",
+    "ingredients": [
+      {"zh": "菜心 300克", "id": "Sawi hijau 300g", "ph": "Choy sum 300g"},
+      {"zh": "牛肉片 150克", "id": "Daging sapi iris 150g", "ph": "Sliced beef 150g"}
+    ],
+    "steps": [
+      {"zh": "牛肉醃好炒熟盛起，原鑊爆蒜炒熟菜心，將牛肉回鑊拉芡炒勻。", "id": "Tumis daging sapi, tumis sawi hijau, campurkan daging dengan sedikit saus.", "ph": "Lutuin ang baka, igisa ang choy sum, ihalo uli ang baka na may kaunting sarsa."}
+    ]
+  },
+  {
+    "id": 37,
+    "hk": "中式牛柳",
+    "id_name": "Daging Sapi Saus Tomat Asam Manis",
+    "ph": "Chinese Style Beef Tenderloin",
+    "portion": "2-3人",
+    "time": "20 mins",
+    "category": "beef",
+    "ingredients": [
+      {"zh": "牛柳 250克", "id": "Daging sapi tenderloin 250g", "ph": "Beef tenderloin 250g"},
+      {"zh": "洋蔥及中式汁(茄汁/喼汁) 適量", "id": "Bawang bombay & saus tomat", "ph": "Onion & sweet savory sauce"}
+    ],
+    "steps": [
+      {"zh": "牛柳切厚片煎至七成熟，炒香洋蔥及中式酸甜汁，倒入牛柳拌勻即可。", "id": "Goreng sapi hingga setengah matang, tumis bawang & saus, aduk rata sapi.", "ph": "I-prito ang baka, igisa ang sibuyas at sarsa, ihalo ang baka."}
+    ]
+  },
+  {
+    "id": 38,
+    "hk": "黑椒牛柳粒",
+    "id_name": "Daging Sapi Dadu Lada Hitam",
+    "ph": "Black Pepper Beef Cubes",
+    "portion": "2-3人",
+    "time": "20 mins",
+    "category": "beef",
+    "ingredients": [
+      {"zh": "牛柳粒 250克", "id": "Daging sapi potong dadu 250g", "ph": "Diced beef 250g"},
+      {"zh": "黑椒碎及蒜粒 適量", "id": "Lada hitam & bawang putih", "ph": "Black pepper & garlic"}
+    ],
+    "steps": [
+      {"zh": "牛柳粒大火煎封表面，炒香蒜粒及黑椒碎，下牛柳粒及醬油快炒上碟。", "id": "Goreng sapi dadu api besar, tumis bawang putih & lada hitam, campurkan sapi.", "ph": "I-prito ang beef cubes sa malakas na apoy, igisa sa bawang at black pepper."}
+    ]
+  },
+  {
+    "id": 39,
+    "hk": "蔥爆牛肉",
+    "id_name": "Tumis Daging Sapi Daun Bawang",
+    "ph": "Stir-fried Beef with Scallions",
+    "portion": "2-3人",
+    "time": "15 mins",
+    "category": "beef",
+    "ingredients": [
+      {"zh": "牛肉片 200克", "id": "Daging sapi iris 200g", "ph": "Sliced beef 200g"},
+      {"zh": "大蔥/大蒜 2棵", "id": "Daun bawang besar 2 batang", "ph": "Scallions 2 stalks"}
+    ],
+    "steps": [
+      {"zh": "牛肉片急火快炒至變色盛起，爆香大蔥段，加入牛肉及生抽蠔油大火爆炒。", "id": "Tumis sapi cepat, tumis daun bawang, masukkan sapi & saus tiram.", "ph": "Igisa ang baka nang mabilis, igisa ang scallions, ihalo ang baka at oyster sauce."}
+    ]
+  },
+  {
+    "id": 40,
+    "hk": "豉汁炒蜆",
+    "id_name": "Kerang Tumis Saus Kedelai Hitam",
+    "ph": "Stir-fried Clams in Black Bean Sauce",
+    "portion": "3-4人",
+    "time": "15 mins",
+    "category": "seafood",
+    "ingredients": [
+      {"zh": "蜆 (花甲) 1斤", "id": "Kerang 600g", "ph": "Clams 600g"},
+      {"zh": "豆豉及辣椒 適量", "id": "Douchi & cabai secukupnya", "ph": "Black bean & chili"}
+    ],
+    "steps": [
+      {"zh": "蜆吐沙後汆水開殼，爆香蒜蓉豆豉及辣椒，放入蜆大火快炒拉芡。", "id": "Rebus kerang sebentar, tumis bawang, douchi, cabai, masukkan kerang & saus.", "ph": "Pakuluan nang bahagya ang clams, igisa sa bawang, black bean at sili, ihalo ang clams."}
+    ]
+  },
+  {
+    "id": 41,
+    "hk": "椒鹽魷魚",
+    "id_name": "Cumi Goreng Garam Merica",
+    "ph": "Salt and Pepper Squid",
+    "portion": "2-3人",
+    "time": "20 mins",
+    "category": "seafood",
+    "ingredients": [
+      {"zh": "鮮魷魚 2條", "id": "Cumi segar 2 ekor", "ph": "Fresh squid 2 pieces"},
+      {"zh": "椒鹽粉及炸蒜粒 適量", "id": "Garam merica & bawang goreng", "ph": "Salt pepper powder & fried garlic"}
+    ],
+    "steps": [
+      {"zh": "魷魚切圈沾生粉炸至酥脆，炒香蒜粒辣椒，倒入魷魚圈撒椒鹽炒勻。", "id": "Goreng cumi bersalut tepung, tumis bawang & cabai, taburi garam merica.", "ph": "I-prito ang squid rings, igisa ang bawang at sili, budburan ng salt pepper."}
+    ]
+  },
+  {
+    "id": 42,
+    "hk": "蒜蓉蒸蝦",
+    "id_name": "Udang Kukus Bawang Putih",
+    "ph": "Steamed Shrimp with Garlic",
+    "portion": "3-4人",
+    "time": "15 mins",
+    "category": "seafood",
+    "ingredients": [
+      {"zh": "鮮蝦 300克", "id": "Udang segar 300g", "ph": "Fresh shrimp 300g"},
+      {"zh": "蒜蓉及粉絲 適量", "id": "Bawang putih cincang & soun", "ph": "Minced garlic & vermicelli"}
+    ],
+    "steps": [
+      {"zh": "蝦開背去蝦線鋪在粉絲上，鋪滿熟蒜蓉，大火蒸 6 分鐘，淋滾油及熟豉油。", "id": "Belah punggung udang, taruh di atas soun, beri bawang putih, kukus 6 menit.", "ph": "Hiwain ang likod ng hipon, ilagay sa vermicelli, lagyan ng bawang, pasingawan ng 6 mins."}
+    ]
+  },
+  {
+    "id": 43,
+    "hk": "薑蔥炒蟹",
+    "id_name": "Kepiting Tumis Jahe dan Bawang",
+    "ph": "Stir-fried Crab with Ginger and Scallions",
+    "portion": "3-4人",
+    "time": "25 mins",
+    "category": "seafood",
+    "ingredients": [
+      {"zh": "肉蟹 2隻", "id": "Kepiting 2 ekor", "ph": "Crabs 2 pieces"},
+      {"zh": "薑片及蔥段 適量", "id": "Jahe & daun bawang secukupnya", "ph": "Ginger & scallions"}
+    ],
+    "steps": [
+      {"zh": "蟹切件沾生粉半煎炸至半熟，爆香大量薑片蔥段，加入蟹件及上湯炆炒熟。", "id": "Goreng kepiting bersalut tepung, tumis jahe & daun bawang, tambah kaldu.", "ph": "I-prito ang crab pieces, igisa sa maraming luya at scallions, dagdagan ng sabaw."}
+    ]
+  },
+  {
+    "id": 44,
+    "hk": "椒鹽蝦",
+    "id_name": "Udang Goreng Garam Merica",
+    "ph": "Salt and Pepper Shrimp",
+    "portion": "3-4人",
+    "time": "15 mins",
+    "category": "seafood",
+    "ingredients": [
+      {"zh": "中蝦 300克", "id": "Udang sedang 300g", "ph": "Medium shrimp 300g"},
+      {"zh": "椒鹽粉及紅椒粒 適量", "id": "Garam merica & cabai merah", "ph": "Salt pepper powder & red chili"}
+    ],
+    "steps": [
+      {"zh": "蝦剪鬚剪槍，大火炸至殼香脆，爆香蒜粒辣椒，倒入蝦撒椒鹽翻炒數下。", "id": "Goreng udang hingga krispi, tumis bawang & cabai, taburi garam merica.", "ph": "I-prito ang hipon hanggang maging renyah, igisa sa bawang, budburan ng salt pepper."}
+    ]
+  },
+  {
+    "id": 45,
+    "hk": "麻婆豆腐",
+    "id_name": "Tahu Mapo (Mapo Tofu)",
+    "ph": "Mapo Tofu",
+    "portion": "2-3人",
+    "time": "20 mins",
+    "category": "veg",
+    "ingredients": [
+      {"zh": "軟豆腐 1磚", "id": "Tahu sutra/lembut 1 blok", "ph": "Soft tofu 1 block"},
+      {"zh": "豬肉碎 100克", "id": "Daging babi giling 100g", "ph": "Minced pork 100g"},
+      {"zh": "豆瓣醬及花椒粉 適量", "id": "Saus cabai bean & lada Sichuan", "ph": "Chili bean paste & Sichuan pepper"}
+    ],
+    "steps": [
+      {"zh": "炒香肉碎及豆瓣醬，加水煮滾後放入豆腐塊，慢火炆 5 分鐘拉芡，撒花椒粉。", "id": "Tumis daging & saus cabai, tambah air & tahu, masak 5 menit, taburi lada.", "ph": "Igisa ang karne at chili paste, idagdag ang tubig at tofu, lutuin ng 5 mins."}
+    ]
+  },
+  {
+    "id": 46,
+    "hk": "蒜蓉蒸豆腐",
+    "id_name": "Tahu Kukus Bawang Putih",
+    "ph": "Steamed Tofu with Garlic",
+    "portion": "2-3人",
+    "time": "15 mins",
+    "category": "veg",
+    "ingredients": [
+      {"zh": "滑豆腐 1盒", "id": "Tahu halus 1 kotak", "ph": "Silken tofu 1 box"},
+      {"zh": "熟蒜蓉 2湯匙", "id": "Bawang putih tumis 2 sdm", "ph": "Fried garlic 2 tablespoons"}
+    ],
+    "steps": [
+      {"zh": "豆腐切厚片排碟，鋪上炒香的熟蒜蓉，大火蒸 8 分鐘，淋上蒸魚豉油及滾油。", "id": "Potong tahu, beri bawang putih tumis, kukus 8 menit, siram kecap & minyak.", "ph": "Hiwain ang tofu, ilagay ang fried garlic, pasingawan ng 8 mins, ibuhos ang toyo."}
+    ]
+  },
+  {
+    "id": 47,
+    "hk": "上湯娃娃菜",
+    "id_name": "Sawihan dalam Kaldu Gurih",
+    "ph": "Baby Chinese Cabbage in Supreme Soup",
+    "portion": "2-3人",
+    "time": "15 mins",
+    "category": "veg",
+    "ingredients": [
+      {"zh": "娃娃菜 2棵", "id": "Sawi putih kecil 2 buah", "ph": "Baby chinese cabbage 2 pieces"},
+      {"zh": "皮蛋及皮蛋/鹹蛋粒 適量", "id": "Telur bitan & kaldu secukupnya", "ph": "Century egg & broth"}
+    ],
+    "steps": [
+      {"zh": "爆香蒜頭及皮蛋粒，倒入上湯煮滾，放入娃娃菜煮至軟腍即可連湯上碟。", "id": "Tumis bawang & telur bitan, tuang kaldu, masukkan sawi hingga lembut.", "ph": "Igisa ang bawang at century egg, ibuhos ang kaldu, ilagay ang cabbage."}
+    ]
+  },
+  {
+    "id": 48,
+    "hk": "蝦醬炒西蘭花",
+    "id_name": "Tumis Brokoli Saus Terasi",
+    "ph": "Stir-fried Broccoli with Shrimp Paste",
+    "portion": "2-3人",
+    "time": "15 mins",
+    "category": "veg",
+    "ingredients": [
+      {"zh": "西蘭花 1個", "id": "Brokoli 1 buah", "ph": "Broccoli 1 piece"},
+      {"zh": "蝦醬 1湯匙", "id": "Saus terasi 1 sdm", "ph": "Shrimp paste 1 tablespoon"}
+    ],
+    "steps": [
+      {"zh": "西蘭花切小朵汆水，爆香蒜蓉及蝦醬，倒入西蘭花大火快炒勻即可。", "id": "Rebus brokoli sebentar, tumis bawang & terasi, masukkan brokoli, aduk cepat.", "ph": "Pakuluan ang broccoli, igisa ang bawang at shrimp paste, ihalo ang broccoli."}
+    ]
+  },
+  {
+    "id": 49,
+    "hk": "苦瓜炒蛋",
+    "id_name": "Tumis Peria (Pare) dan Telur",
+    "ph": "Stir-fried Bitter Melon with Eggs",
+    "portion": "2-3人",
+    "time": "15 mins",
+    "category": "egg",
+    "ingredients": [
+      {"zh": "苦瓜 1條", "id": "Peria (Pare) 1 buah", "ph": "Bitter melon 1 piece"},
+      {"zh": "雞蛋 3隻", "id": "Telur 3 butir", "ph": "Itlog 3 pieces"}
+    ],
+    "steps": [
+      {"zh": "苦瓜切薄片加鹽抓洗減苦味，炒軟苦瓜後倒入蛋液，煎至兩面金黃炒散即成。", "id": "Iris tipis peria, tumis hingga layu, tuang telur, aduk rata hingga matang.", "ph": "Hiwain ang bitter melon, igisa hanggang lumambot, ibuhos ang itlog, lutuin."}
+    ]
+  },
+  {
+    "id": 50,
+    "hk": "蒸水蛋",
+    "id_name": "Telur Kukus Lembut (Steamed Egg Custard)",
+    "ph": "Steamed Egg Custard",
+    "portion": "2-3人",
+    "time": "15 mins",
+    "category": "egg",
+    "ingredients": [
+      {"zh": "雞蛋 3隻", "id": "Telur 3 butir", "ph": "Itlog 3 pieces"},
+      {"zh": "溫水/雞湯 蛋液的1.5倍", "id": "Air hangat/kaldu 1.5x jumlah telur", "ph": "Warm water/broth 1.5x of egg volume"}
+    ],
+    "steps": [
+      {"zh": "雞蛋打勻加入溫水及鹽，過篩倒入深碟撇去泡泡，中小火蓋碟蒸 10 分鐘，淋生抽及麻油。", "id": "Kocok telur dengan air hangat & garam, saring, kukus api kecil 10 menit, siram kecap.", "ph": "Batihin ang itlog sa warm water at asin, salain, pasingawan ng 10 mins, lagyan ng toyo."}
+    ]
+  }
+];
